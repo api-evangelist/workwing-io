@@ -64,5 +64,138 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-workwing-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://workwing.io/
+WorkWing provides field service management software with an open API, enabling companies to schedule jobs, track work, and integrate with CRM systems. The platform offers mobile apps for technicians, a unified dispatch board, and customizable reporting without per-user fees. It supports free trials and paid plans starting at £79 per month, targeting teams that need coordinated field operations and seamless data flow.
+
+**Areas:** Field Service Management · API · SaaS · Mobile · OpenAPI
+
+## workwing-io on APIs.io
+
+Everything profiled for workwing-io is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/workwing-io/](https://apis.io/providers/workwing-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (21)
+
+- [workwing-io Assignments API](https://apis.io/apis/workwing-io/workwing-io-assignments-api/) — Assigning resources to jobs
+- [workwing-io Brands API](https://apis.io/apis/workwing-io/workwing-io-brands-api/) — Brand configuration (read-only)
+- [workwing-io Context API](https://apis.io/apis/workwing-io/workwing-io-context-api/) — API key introspection, capabilities, and organisation info
+- [workwing-io Custom Fields API](https://apis.io/apis/workwing-io/workwing-io-custom-fields-api/) — Custom field definitions: the schema (keys, labels, types) for job, customer and resource custom fields. Read them for discovery, create and update them to…
+- [workwing-io Customers API](https://apis.io/apis/workwing-io/workwing-io-customers-api/) — Customers and their notes and attachments
+- [workwing-io Health API](https://apis.io/apis/workwing-io/workwing-io-health-api/) — Service health check
+- [workwing-io Integrations API](https://apis.io/apis/workwing-io/workwing-io-integrations-api/) — Running configured integrations and receiving their callbacks
+- [workwing-io Job Schedules API](https://apis.io/apis/workwing-io/workwing-io-job-schedules-api/) — Recurring job schedules (create, lifecycle)
+- [workwing-io Job Status History API](https://apis.io/apis/workwing-io/workwing-io-job-status-history-api/) — Job status change audit trail (read-only)
+- [workwing-io Job types API](https://apis.io/apis/workwing-io/workwing-io-job-types-api/) — Job types (read-only). The collection is `job_templates`, and a job's `template_id` points at one.
+- [workwing-io Jobs API](https://apis.io/apis/workwing-io/workwing-io-jobs-api/) — Jobs and their notes, parts, attachments, status, and custom fields
+- [workwing-io Location History API](https://apis.io/apis/workwing-io/workwing-io-location-history-api/) — GPS traces and job segments (read-only)
+- [workwing-io Locations API](https://apis.io/apis/workwing-io/workwing-io-locations-api/) — Customer locations and their notes
+- [workwing-io OAuth API](https://apis.io/apis/workwing-io/workwing-io-oauth-api/) — OAuth connection management
+- [workwing-io Parts Catalogue API](https://apis.io/apis/workwing-io/workwing-io-parts-catalogue-api/) — Parts catalogue and brand-specific pricing (read-only)
+- [workwing-io Projects API](https://apis.io/apis/workwing-io/workwing-io-projects-api/) — Projects: jobs that own a pool of jobs, with their window, crew, and progress. A project is a job, so it is updated with `PATCH /v1/jobs/{jobId}` and crew…
+- [workwing-io Resource Groups API](https://apis.io/apis/workwing-io/workwing-io-resource-groups-api/) — Resource groups (read-only)
+- [workwing-io Resources API](https://apis.io/apis/workwing-io/workwing-io-resources-api/) — Resources (your engineers and other field staff) and their notes, skills, attachments, and working hours
+- [workwing-io Schedule API](https://apis.io/apis/workwing-io/workwing-io-schedule-api/) — Resource scheduling, availability, and conflicts
+- [workwing-io Skills API](https://apis.io/apis/workwing-io/workwing-io-skills-api/) — Skill definitions and categories (read-only)
+- [workwing-io Workflows API](https://apis.io/apis/workwing-io/workwing-io-workflows-api/) — Bulk operations and multi-step workflows
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Workwing Io Webhooks](https://apis.io/asyncapis/workwing-io/workwing-io-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Workwing Io Agentic Access](https://apis.io/agentic-access/workwing-io/workwing-io-agentic-access/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [workwing-io API Rules](https://apis.io/rules/workwing-io/workwing-io-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Workwing Io Authentication](https://apis.io/security/workwing-io/workwing-io-authentication/)
+- [Workwing Io Domain Security](https://apis.io/security/workwing-io/workwing-io-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Workwing Io Plans Pricing](https://apis.io/plans/workwing-io/workwing-io-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.workwing.io/)
+- [Documentation](https://docs.workwing.io/)
+- [Getting started](https://docs.workwing.io/getting-started/introduction/)
+- [API reference](https://docs.workwing.io/api/)
+- [Pricing](https://www.workwing.io/pricing)
+- [Sign up](https://auth.workwing.io/auth/signup?utm_source=marketing&utm_medium=website&utm_content=home-hero)
+- [Support](https://www.workwing.io/support)
+- [Terms of service](https://www.workwing.io/legal/terms)
+- [Privacy policy](https://www.workwing.io/legal/privacy)
+
+## API Evangelist rating
+
+**Kin Score 57.7** — strong · rubric 0.25.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 49.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 61.2 |
+| Access clarity | 73.2 |
+
+**Agent readiness 57.3** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/workwing-io/](https://apis.io/providers/workwing-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for workwing-io: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/workwing-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
